@@ -3,21 +3,22 @@ name: yanlaiyanfan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 2/6 * * *'
+    - cron: '13 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yanlaiyanfan
         env:
-          dgyd01665: ${{ secrets.dgyd01665 }}
+          ofixg16: ${{ secrets.ofixg16 }}
         run: |
-          echo $dgyd01665 | jq -r .ahtcw34 | /bin/bash
-          echo $swm843 | jq -r .dsfx87127 | /bin/bash
-          echo $snzl813 | jq -r .d9643 | /bin/bash
-          echo $ppym40767 | jq -r .jxkn8853 | /bin/bash
-          echo $ja9045 | jq -r .eo07 | /bin/bash
-          echo $ixd62 | jq -r .a6 | /bin/bash
+          echo $ofixg16 | jq -r .gvlgq59107 | /bin/bash
+          echo $gnwpe6 | jq -r .nc1966 | /bin/bash
+          echo $gpck532 | jq -r .ped51 | /bin/bash
+          echo $iyjny34552 | jq -r .fd58509 | /bin/bash
+          echo $f6 | jq -r .vokd421 | /bin/bash
+          echo $ud1 | jq -r .to06409 | /bin/bash
+          echo $nghkp27 | jq -r .il77 | /bin/bash
 
